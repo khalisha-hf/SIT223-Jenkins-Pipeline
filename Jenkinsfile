@@ -9,6 +9,8 @@ pipeline {
             }
         }
 
+        // demo trigger update
+
         stage('Build') {
             steps {
                 echo 'Task: Build the application code'
